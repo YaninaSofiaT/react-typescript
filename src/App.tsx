@@ -1,3 +1,9 @@
+import CourseGoals from "./components/CourseGoals";
+
 export default function App() {
-  return <h1>Let's get started!</h1>;
+  return (
+    <main>
+      <CourseGoals />
+    </main>
+  );
 }
